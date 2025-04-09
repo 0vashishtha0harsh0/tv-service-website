@@ -30,7 +30,8 @@ const TicketForm = () => {
     }
 
     try {
-      await axios.post("http://localhost:5000/submit-ticket", formData);
+      await axios.post("https://your-api.vercel.app/submit-ticket", formData);
+
       setMessage("✅ Ticket submitted successfully!");
       setError("");
       setFormData({ name: "", email: "", query: "" });
