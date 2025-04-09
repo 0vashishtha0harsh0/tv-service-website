@@ -1,0 +1,33 @@
+.homepage {
+  text-align: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.homepage h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.homepage p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.explore-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #0056b3;
+}
